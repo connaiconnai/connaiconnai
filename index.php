@@ -10,11 +10,11 @@
     
     <meta property="og:title" content="connai connai" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://haradakazunari.herokuapp.com/connaiconnai" />
+    <meta property="og:url" content="https://connaiconnai.herokuapp.com/" />
     <meta property="og:site_name" content="connai connai" />
-    <meta property="og:description" content="普段から着物を着て、イベントやプログラミング教室を企画・運営" />
+    <meta property="og:description" content="パソコン初心者向けのプログラミング家庭教師" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <title></title>
+  <title>connai connai</title>
   <link rel="stylesheet" href="style.css">
 
 </head>
