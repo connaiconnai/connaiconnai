@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta content="自分を見つめ直すことができるプログラミング教室" name="description">
+    <meta content="エンジニアを目指さないプログラミング教室" name="description">
     
     <meta property="og:title" content="connai connai" />
     <meta property="og:type" content="website" />
