@@ -7,6 +7,10 @@ html {
   }
 }
 
+body {
+  background-color: #FEB200;
+}
+
 @media (max-width: 700px) {
   p {
     font-size: 0.8rem;
@@ -63,6 +67,11 @@ html {
   color: #EEE;
   height: 70vw;
   padding-top: 6rem;
+}
+@media (min-width: 1000px) {
+  .bbg {
+    height: 40rem;
+  }
 }
 @media (max-width: 700px) {
   .bbg {
@@ -396,6 +405,11 @@ header .nav .nav_btn a:hover {
   left: 18%;
   z-index: -1;
 }
+@media (min-width: 1000px) {
+  #contact .bg_logo {
+    left: 28%;
+  }
+}
 @media (max-width: 700px) {
   #contact .bg_logo {
     top: 100%;
@@ -403,6 +417,11 @@ header .nav .nav_btn a:hover {
 }
 #contact .bg_logo img {
   width: 83%;
+}
+@media (min-width: 1000px) {
+  #contact .bg_logo img {
+    width: 40rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

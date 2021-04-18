@@ -6,6 +6,11 @@ $sp: 480px;  // スマホ
     @content;
   }
 }
+@mixin -pc {
+  @media (min-width: ($pc)) {
+    @content;
+  }
+}
 @mixin tab {
   @media (max-width: ($tab)) {
     @content;
@@ -22,6 +27,9 @@ html{
   @include tab {
     font-size: 5vw;
   }
+}
+body{
+  background-color: #FEB200;
 }
 p{
   @include tab {
@@ -65,6 +73,9 @@ p{
   background-color: rgba(112,112,112,0.87);
   color: #EEE;
   height: 70vw;
+  @include -pc {
+    height: 40rem;
+  }
   padding-top: 6rem;
   @include tab {
     height: 40rem;
@@ -365,12 +376,17 @@ header{
     top: -30%;
     left: 18%;
     z-index:-1;
+    @include -pc {
+      left: 28%;
+    }
     @include tab {
       top: 100%;
     }
     img{
       width: 83%;
-
+      @include -pc{
+        width: 40rem;
+      }
     }
   }
 }

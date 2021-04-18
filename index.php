@@ -9,6 +9,7 @@
     <meta content="エンジニアを目指さないプログラミング教室" name="description">
     
     <meta property="og:title" content="connai connai" />
+    <meta property="og:title" content="コネコネ" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://connaiconnai.herokuapp.com/" />
     <meta property="og:site_name" content="connai connai" />
@@ -50,6 +51,7 @@
                 <h3>connai connaiとは</h3>
               </div>
               <p>
+                connai connai（コネコネ）とは、<br>
                 パソコン初心者向けに、プログラミング家庭教師を開講しており、
                 エンジニアを目指すのではなく、「デジタルの世界」を知ったり、
                 パソコンの扱いに慣れたりすることで、自分にとって「楽しいこと」
