@@ -59,7 +59,7 @@
               </p>
               <a href="#conact">
                 <div class="button">
-                 無料体験を受講する 
+                 無料講座を受講する 
                 </div>
               </a>
             </div><!-- text -->
@@ -159,6 +159,7 @@
                   <h3>この教室では</h3>
                 </div>
                 <p>
+                なぜ、これをするのか。<br>
                 基本、対面で行います。<br>
                 （オンラインで行うことも可能）<br>
                 <!-- 「プログラミングの家庭教師」であるため、お家に伺います。<br> -->
@@ -173,10 +174,43 @@
                 言語だけでなく、パソコン・ソフトウェア・ショートカットキーも学ぶことができ、<br>
 「作業の効率化」も身につけることができます。
                 </p>
+              <a href="#conact">
+                <div class="button">
+                 無料講座を受講する 
+                </div>
+              </a>
               </div><!-- text -->
             </div><!-- flex -->
           </div><!-- whbord -->
         </div><!-- bord03 -->
+
+        <div class="bord04">
+          <div class="whbord">
+            <div class="flex">
+              <div class="text">
+                <div class="bord_title">
+                  <h3>受講者の声</h3>
+                </div>
+                <p>
+                </p>
+              </div><!-- text -->
+            </div><!-- flex -->
+          </div><!-- whbord -->
+        </div><!-- bord04 -->
+
+        <div class="bord05">
+          <div class="whbord" id="free_class">
+            <div class="flex">
+              <div class="text">
+                <div class="bord_title">
+                  <h3>無料講座について</h3>
+                </div>
+                <p>
+                </p>
+              </div><!-- text -->
+            </div><!-- flex -->
+          </div><!-- whbord -->
+        </div><!-- bord05 -->
       </div><!-- inline -->
     </div><!-- service -->
   </div><!-- rp_bg -->
@@ -230,37 +264,49 @@
         <div class="bg_logo">
           <img src="./img/blogo.png" alt="">
         </div>
-        <div class="text">
-          <div class="text01">
-            <h5>Address</h5>
-            <p>
-            〒812-0893<br>
-            福岡市博多区那珂6丁目15
-            </p>
-          </div>
-          <div class="text02">
-            <h5>Email</h5>
-            <p>connaiconnai5252@gmail.com</p>
-          </div>
-          <div class="text03">
-            <!-- <h5>SNS</h5> -->
-            <!-- <div class="icons"> -->
-            <!--   <h4>SNS</h4> -->
-            <!--   <ul> -->
-            <!--     <li><a href="https://www.instagram.com/unya_gt/?hl=ja" target="_blank"><i class="fab fa-instagram"></i></a></li> -->
-            <!--     <li><a href="https://www.facebook.com/profile.php?id=100031652443406" target="_blank"><i class="fab fa-facebook-square"></i></a></li> -->
+        <div class="flex">
+          <div class="text">
+            <div class="text01">
+              <h5>Address</h5>
+              <p>
+              〒812-0893<br>
+              福岡市博多区那珂6丁目15
+              </p>
+            </div>
+            <div class="text02">
+              <h5>Email</h5>
+              <p>connaiconnai5252@gmail.com</p>
+            </div>
+            <div class="text03">
+              <!-- <h5>SNS</h5> -->
+              <!-- <div class="icons"> -->
+              <!--   <h4>SNS</h4> -->
+              <!--   <ul> -->
+              <!--     <li><a href="https://www.instagram.com/unya_gt/?hl=ja" target="_blank"><i class="fab fa-instagram"></i></a></li> -->
+              <!--     <li><a href="https://www.facebook.com/profile.php?id=100031652443406" target="_blank"><i class="fab fa-facebook-square"></i></a></li> -->
 
-            <!--     <li><a href="https://github.com/HaradaKazunari?tab=repositories" target="_blank"><i class="fab fa-github"></i></a></li> -->
-            <!--   </ul> -->
-            <!-- </div><!-1- /icons -1-> -->
-          </div>
-        </div>
+              <!--     <li><a href="https://github.com/HaradaKazunari?tab=repositories" target="_blank"><i class="fab fa-github"></i></a></li> -->
+              <!--   </ul> -->
+              <!-- </div><!-1- /icons -1-> -->
+            </div>
+          </div><!-- text -->
+          <div class="form">
+            <h4>無料講座お申し込み</h4>
+            <form action="send.php">
+            <input type="text" name="name">
+<br>
+            <input type="text" name="email">
+<br>
+            <input type="text" name="">
+            </form>
+          </div><!-- form -->
+        </div><!-- flex -->
       </div><!-- inline -->
     </div><!-- contact -->
   </div><!-- bbg -->
 
   <footer>
-    <p>&copy;copyright connai connai 2021</p>
+  <p>&copy;copyright connai connai <?php echo date('Y') ?></p>
   </footer>
   
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

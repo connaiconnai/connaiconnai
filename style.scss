@@ -78,7 +78,34 @@ p{
     height: 40rem;
   }
 
-  
+}
+.button{
+  color: #707070;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #FECE5C;
+  width: 10rem;
+  height: 47px;
+  text-align: center;
+  line-height: 3rem;
+  border-radius:25px;
+  margin: 0;
+  &:hover{
+    transition: 0.3s;
+    background-color: #FEB200;
+  }
+  @include tab{
+    margin: 0 auto;
+    line-height: 2.3rem;
+    height: 20%;
+    font-size: 0.8rem;
+  }
+  a{
+    color: #707070;
+    &:hover{
+      text-decoration: none;
+    }
+  }
 }
 footer{
   background-color: #CC8F00;
@@ -205,34 +232,6 @@ header{
         margin: 2rem 0;
         @include tab {
           margin: 2rem auto; 
-        }
-      }
-      .button{
-        color: #707070;
-        font-weight: bold;
-        font-size: 1rem;
-        background-color: #FECE5C;
-        width: 10rem;
-        height: 47px;
-        text-align: center;
-        line-height: 3rem;
-        border-radius:25px;
-        margin: 0;
-        &:hover{
-          transition: 0.3s;
-          background-color: #FEB200;
-        }
-        @include tab{
-          margin: 0 auto;
-          line-height: 2.3rem;
-          height: 20%;
-          font-size: 0.8rem;
-        }
-        a{
-          color: #707070;
-          &:hover{
-            text-decoration: none;
-          }
         }
       }
     }
