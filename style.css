@@ -80,7 +80,7 @@ html {
   font-weight: bold;
   font-size: 1rem;
   background-color: #FECE5C;
-  width: 10rem;
+  width: 12rem;
   height: 47px;
   text-align: center;
   line-height: 3rem;
@@ -96,6 +96,7 @@ html {
     margin: 0 auto;
     line-height: 2.3rem;
     height: 20%;
+    width: 10rem;
     font-size: 0.8rem;
   }
 }
@@ -257,6 +258,9 @@ header .nav .nav_btn a:hover {
   }
 }
 
+#service .bord01 {
+  margin-bottom: 2rem;
+}
 #service .bord01 .whbord .cell {
   width: 33.333%;
   margin: 0 1rem;
@@ -278,7 +282,7 @@ header .nav .nav_btn a:hover {
   }
 }
 #service .bord02 {
-  margin: 2rem 0;
+  margin-bottom: 2rem;
 }
 @media (max-width: 700px) {
   #service .bord02 .flex {
@@ -296,8 +300,19 @@ header .nav .nav_btn a:hover {
     margin-bottom: 2rem;
   }
 }
-#service p {
+#service .bord03 {
+  margin-bottom: 2rem;
+}
+#service .bord03 p {
   margin-top: 2rem;
+}
+@media (max-width: 700px) {
+  #service .bord03 .button {
+    height: 8%;
+  }
+}
+#service .bord04 {
+  margin-bottom: 2rem;
 }
 
 #members {
