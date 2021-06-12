@@ -295,6 +295,9 @@
               <!--   </ul> -->
               <!-- </div><!-1- /icons -1-> -->
             </div>
+            <div class="text04">
+              <a href="https://lin.ee/cF9WC49"><img height="40" border="0" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"></a>
+            </div><!-- text04 -->
           </div><!-- text -->
         </div><!-- flex -->
       </div><!-- inline -->
