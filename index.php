@@ -8,14 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta content="エンジニアを目指さないプログラミング教室" name="description">
     
-    <meta property="og:title" content="connai connai" />
     <meta property="og:title" content="コネコネ" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://connaiconnai.herokuapp.com/" />
     <meta property="og:site_name" content="connai connai" />
-    <meta property="og:description" content="パソコン初心者向けのプログラミング家庭教師" />
+    <meta property="og:description" content="パソコン初心者向けのプログラミング教室" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <title>connai connai</title>
+  <title>connai connai -コネコネ-</title>
   <link rel="stylesheet" href="style.css">
 
 </head>
