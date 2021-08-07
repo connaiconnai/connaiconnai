@@ -31,6 +31,7 @@
           <div class="nav_btn"><a href="#service">Service</a></div>
           <div class="nav_btn"><a href="#members">Members</a></div>
           <div class="nav_btn"><a href="#contact">Contact</a></div>
+          <div class="nav_btn"><a href="./privacy.php">privacy policy</a></div>
         </div>
       </div><!-- flex -->
     </div><!-- inline -->
