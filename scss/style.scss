@@ -36,7 +36,7 @@ p{
 .pc{
   display:block;
   @include tab{
-    display: none;
+    display: none !important;
   }
 }
 .sp{
@@ -59,12 +59,12 @@ p{
   justify-content:space-between;
 }
 .rp_bg{
-  background-image: url(./img/bg.jpg);
+  background-image: url(../img/bg.jpg);
   background-size: cover;
   padding-bottom: 8rem;
 }
 .cl_bg{
-  background-image: url(./img/cbg.jpg);
+  background-image: url(../img/cbg.jpg);
 }
 .bbg{
   background-color: rgba(112,112,112,0.87);
@@ -108,13 +108,17 @@ p{
     }
   }
 }
+
 footer{
   background-color: #CC8F00;
-  height: 4rem;
+  height: 2rem;
   color: #4D4D4D;
   text-align: center;
-  line-height:4rem;
+  line-height:2rem;
   font-weight: bold;
+  p{
+    font-size: 0.5rem;
+  }
 }
 .title{
   border-bottom: 1px solid #707070;;
@@ -153,9 +157,13 @@ header{
   z-index: 999;
   img{
     max-width: 16rem;
-    width:30%;
+    width: 18%;
+  }
+  .pc{
+    display:flex;
+    align-items:center;
     @include tab {
-      width: 53%;
+      width: 92%;
     }
   }
   .header-flex{
@@ -163,11 +171,6 @@ header{
     justify-content:space-between;
   }
   .nav{
-    display:flex;
-    align-items:center;
-    @include tab {
-      width: 92%;
-    }
     .nav_btn{
       line-height:2rem;
       height: 2.5rem;
