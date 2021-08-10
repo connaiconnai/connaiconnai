@@ -157,7 +157,10 @@ header{
   z-index: 999;
   img{
     max-width: 16rem;
-    width: 18%;
+    width: 30%;
+    @include tab{
+      width: 18%;
+    }
   }
   .pc{
     display:flex;
