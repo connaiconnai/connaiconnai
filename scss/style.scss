@@ -28,6 +28,11 @@ html{
     font-size: 5vw;
   }
 }
+ol li{
+  @include tab {
+    font-size: 0.8rem;
+  }
+}
 p{
   @include tab {
     font-size: 0.8rem;
@@ -111,13 +116,20 @@ p{
 
 footer{
   background-color: #CC8F00;
-  height: 2rem;
+  height: 4rem;
   color: #4D4D4D;
   text-align: center;
-  line-height:2rem;
+  line-height:4rem;
   font-weight: bold;
+  @include tab{
+    height: 2rem;
+    line-height:2rem;
+  }
   p{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
+    @include tab{
+      font-size: 0.5rem;
+    }
   }
 }
 .title{
