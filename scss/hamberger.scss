@@ -6,20 +6,19 @@ $gray: #707070;
   display: block;
   position: fixed;
   z-index: 3;
-  right: 13px;
-  top: 12px;
+  right: 37px;
+  top: 20px;
   width: 42px;
   height: 42px;
   cursor: pointer;
   text-align: center;
-  opacity:0;
-  transition:4s;
+  opacity:1;
 
   span {
     display: block;
     position: absolute;
-    width: 20px;
-    height: 0.3px;
+    width: 33px;
+    height: 2.3px;
     left: 6px;
     background: $sub;
     -webkit-transition: 0.3s ease-in-out;
