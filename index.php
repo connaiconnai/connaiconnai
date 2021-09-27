@@ -135,7 +135,6 @@
           </div><!-- whbord -->
         </div><!-- bord01 -->
 
-
         <div class="bord02">
           <div class="flex">
             <div class="whbord">
@@ -331,7 +330,7 @@
   </div><!-- bbg -->
 
   <footer>
-  <p>&copy;copyright connai connai <?php echo date('Y') ?></p>
+    <p>&copy;copyright connai connai <?php echo date('Y') ?></p>
   </footer>
   
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
