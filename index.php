@@ -69,7 +69,7 @@
   </header>
 
     <section id="top" class="sec sec01">
-      <div class="bg_white">
+      <div class="catch_bg_white">
         <div class="catch">
           <h1>「面倒くさい」から<br class="sp">「やりたい」へ</h1>
           <h5>学校とは違う<span class="text_color">プログラミング教室</span></h5>
@@ -80,9 +80,9 @@
       </div>
       <div class="bg_orange">
         <p class="about">
-          この教室は、パソコンの扱いに慣れていない段階から始められる教室です。<br>
+          この教室は、パソコンの扱いに慣れていない段階から始められる教室です。<br class="pc">
           パソコン操作を学びながら、プログラミングの基礎を身につけることができます。<br>
-          基礎を身につけた後、自分でどういったものが作りたいかを設計し、段階を踏みながら形にしていきます。<br>
+          基礎を身につけた後、自分でどういったものが作りたいかを設計し、段階を踏みながら形にしていきます。<br class="pc">
           自分が想像したものを形にすることができるため、学校とは違う楽しみがある教室です
         </p>
         <div class="power">
@@ -126,10 +126,10 @@
         <div class="course">
           <div class="course_card bg_white">
             <div class="pc_flex">
-              <h4 class="course_name">基礎コース</h4>
               <div class="img">
                 <img class="course_logo" src="img/material/icon/new.png" alt="基礎コース">
               </div>
+              <h4 class="course_name">基礎コース</h4>
             </div>
             <p class="explanation">パソコン操作、プログラミング、サイト制作を通して基礎を学びます</p>
             <div class="course_detail button">
@@ -139,10 +139,10 @@
 
           <div class="course_card bg_white">
             <div class="pc_flex">
-              <h4 class="course_name">サイト制作コース</h4>
               <div class="img">
                 <img class="course_logo" src="img/material/icon/site.png" alt="サイト制作コース">
               </div>
+              <h4 class="course_name">サイト制作コース</h4>
             </div>
             <p class="explanation">サイトの模写から始まり、最後には自分のサイトが作れるようになります</p>
             <div class="course_detail button">
@@ -152,10 +152,10 @@
 
           <div class="course_card bg_white">
             <div class="pc_flex">
-              <h4 class="course_name">2Dゲーム制作コース</h4>
               <div class="img">
                 <img class="course_logo" src="img/material/icon/game.png" alt="2Dゲーム制作コース">
               </div>
+              <h4 class="course_name">2Dゲーム制作コース</h4>
             </div>
             <p class="explanation">PC上で動かすことのできるゲームを制作します</p>
             <div class="course_detail button">
@@ -165,10 +165,10 @@
 
           <div class="course_card bg_white">
             <div class="pc_flex">
-              <h4 class="course_name">開発コース</h4>
               <div class="img">
                 <img class="course_logo" src="img/material/icon/pro.png" alt="開発コース">
               </div>
+              <h4 class="course_name">開発コース</h4>
             </div>
             <p class="explanation">
               デザインから設計、コーディングまで１人でこなせるようになります
@@ -326,7 +326,7 @@
   <div class="member_card">
     <div class="inline">
       <div class="bg_white">
-        <div class="flex">
+        <div class="pc_flex">
           <div class="img">
             <img src="img/material/harada.png" alt="harada">
           </div>
@@ -370,7 +370,7 @@
     <div class="pc_flex">
       <div class="address flex">
         <div class="logo">
-          <img src="img/logo.png" alt="" style="width:40px;">
+          <img src="img/logo.png" alt="" >
         </div>
         <div class="text">
           <p>
@@ -383,9 +383,10 @@
         <p>instagramやLINE@からもご連絡頂けます！</p>
         <div class="flex">
           <div class="insta sns">
-            <a href="#"><img src="img/material/icon/insta.png" alt="insta"></a>
+            <a href="https://www.instagram.com/connai_connai/"><img src="img/material/icon/insta.png" alt="insta"></a>
           </div>
           <div class="line">
+            <a href="https://lin.ee/cF9WC49"><img height="40" border="0" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"></a>
           </div>
         </div>
       </div><!-- buttons -->
