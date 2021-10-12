@@ -80,6 +80,18 @@ header{
   }
 }
 
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+.bg_animation{
+  position: relative;
+  svg {
+    height: 16rem;
+    width: 100%;
+    position: absolute;
+    top: -116px;
+    left: 0;
+  }
+}
 html{
   font-size: 62.5%;
   @media (max-width:1920px){
@@ -178,6 +190,7 @@ p{
   }
   .catch{
     padding-top: 6rem;
+    padding-bottom: 12rem;
     text-align: center;
     h5{
       margin-top: 1rem;
