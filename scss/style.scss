@@ -518,6 +518,9 @@ p{
       position: absolute;
       right: 22%;
       bottom: 36%;
+      @include sp{
+        right: 10%;
+      }
     }
     .attention{
       padding-bottom: 10rem;
