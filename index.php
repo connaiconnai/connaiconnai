@@ -207,7 +207,9 @@
         </div><!-- flow -->
 
         <div class="voice">
+<h5> ※準備中 </h5>
           <h3>受講者の声</h3>
+
           <div class="pc_flex">
             <div class="voice_card">
               <div class="bg_white">
@@ -245,6 +247,7 @@
         </div><!-- voice -->
 
         <div class="students_work">
+<h5> ※準備中 </h5>
           <h3>生徒の作品</h3>
           <div class="pc_flex">
             <div class="work_card">
@@ -395,6 +398,324 @@
   </div><!-- inline -->
 </section>
 
+<section id="qa">
+  <div class="inline">
+    <div class="sec_title">
+      <h2>Q&A</h2>
+      <h5>よくあるご質問</h5>
+    </div>
+    <div class="qa qa1">
+      <div class="bg_white">
+        <div class="qa_header">
+          <div class="flex">
+            <div class="flex">
+              <div class="q_icon">
+                <img src="img/material/icon/Q.png" alt="受講料はいくらですか？">
+              </div>
+              <div class="q_title">
+                <h5>受講料はいくらですか？</h5>
+              </div>
+              <div class="open_close"><i class="fas fa-plus"></i></div>
+            </div><!-- flex -->
+          </div><!-- flex -->
+        </div><!-- qa_header -->
+        <div class="bg_gray">
+          <div class="flex">
+            <div class="a_icon">
+              <img src="img/material/icon/A.png" alt="1回5,000円です。">
+            </div>
+            <div class="a_text">
+              <p>
+                １回5,000円です。月謝で頂いております。<br>
+                例）１月に２回受講の場合→月に10,000頂いております
+              </p>
+            </div>
+          </div><!-- flex -->
+        </div><!-- bg_gray -->
+      </div><!-- bg_white -->
+    </div><!-- qa -->
+
+    <div class="qa qa2">
+      <div class="bg_white">
+        <div class="qa_header">
+          <div class="flex">
+            <div class="flex">
+              <div class="q_icon">
+                <img src="img/material/icon/Q.png" alt="１回の講座時間はどのくらいですか？">
+              </div>
+              <div class="q_title">
+                <h5>１回の講座時間はどのくらいですか？</h5>
+              </div>
+              <div class="open_close">+</div>
+            </div><!-- flex -->
+          </div><!-- flex -->
+        </div><!-- qa_header -->
+        <div class="bg_gray">
+          <div class="flex">
+            <div class="a_icon">
+              <img src="img/material/icon/A.png" alt="２時間です">
+            </div>
+            <div class="a_text">
+              <p>２時間です</p>
+            </div>
+          </div><!-- flex -->
+        </div><!-- bg_gray -->
+      </div><!-- bg_white -->
+    </div><!-- qa -->
+
+    <div class="qa qa3">
+      <div class="bg_white">
+        <div class="qa_header">
+          <div class="flex">
+            <div class="flex">
+              <div class="q_icon">
+                <img src="img/material/icon/Q.png" alt="無料講座を受講するためにはどうしたらいいですか？">
+              </div>
+              <div class="q_title">
+                <h5>無料講座を受講するためにはどうしたらいいですか？</h5>
+              </div>
+              <div class="open_close">+</div>
+            </div><!-- flex -->
+          </div><!-- flex -->
+        </div><!-- qa_header -->
+        <div class="bg_gray">
+          <div class="flex">
+            <div class="a_icon">
+              <img src="img/material/icon/A.png" alt="LINE、instagram、メールのいずれかでご連絡ください。">
+            </div>
+            <div class="a_text">
+              <p>LINE、instagram、メールのいずれかでご連絡ください。</p>
+            </div>
+          </div><!-- flex -->
+        </div><!-- bg_gray -->
+      </div><!-- bg_white -->
+    </div><!-- qa -->
+
+    <div class="qa qa4">
+      <div class="bg_white">
+        <div class="qa_header">
+          <div class="flex">
+            <div class="flex">
+              <div class="q_icon">
+                <img src="img/material/icon/Q.png" alt="必ず基礎コースから受ける必要がありますか？">
+              </div>
+              <div class="q_title">
+                <h5>必ず基礎コースから受ける必要がありますか？</h5>
+              </div>
+              <div class="open_close">+</div>
+            </div><!-- flex -->
+          </div><!-- flex -->
+        </div><!-- qa_header -->
+        <div class="bg_gray">
+          <div class="flex">
+            <div class="a_icon">
+              <img src="img/material/icon/A.png" alt="どのコースから受講したらいいのか不安な方はご相談ください。">
+            </div>
+            <div class="a_text">
+              <p>
+                ありません。<br>
+                生徒のレベルに合わせてご提案させていただいております。<br>
+                どのコースから受講したらいいのか不安な方はご相談ください。
+              </p>
+            </div>
+          </div><!-- flex -->
+        </div><!-- bg_gray -->
+      </div><!-- bg_white -->
+    </div><!-- qa -->
+
+    <div class="qa qa5">
+      <div class="bg_white">
+        <div class="qa_header">
+          <div class="flex">
+            <div class="flex">
+              <div class="q_icon">
+                <img src="img/material/icon/Q.png" alt="対象年齢は何歳ですか？">
+              </div>
+              <div class="q_title">
+                <h5>対象年齢は何歳ですか？</h5>
+              </div>
+              <div class="open_close">+</div>
+            </div><!-- flex -->
+          </div><!-- flex -->
+        </div><!-- qa_header -->
+        <div class="bg_gray">
+          <div class="flex">
+            <div class="a_icon">
+              <img src="img/material/icon/A.png" alt="中学生以上">
+            </div>
+            <div class="a_text">
+              <p>
+                中学生以上です。<br>
+                本格的なプログラミングを行うため、中学生以上としております。<br>
+                しかし、推奨であるため上記年齢以外の方はご相談ください。
+              </p>
+            </div>
+          </div><!-- flex -->
+        </div><!-- bg_gray -->
+      </div><!-- bg_white -->
+    </div><!-- qa -->
+
+    <div class="qa qa6">
+      <div class="bg_white">
+        <div class="qa_header">
+          <div class="flex">
+            <div class="flex">
+              <div class="q_icon">
+                <img src="img/material/icon/Q.png" alt="無料講座に参加したら入会しないといけませんか？">
+              </div>
+              <div class="q_title">
+                <h5>無料講座に参加したら入会しないといけませんか？</h5>
+              </div>
+              <div class="open_close">+</div>
+            </div><!-- flex -->
+          </div><!-- flex -->
+        </div><!-- qa_header -->
+        <div class="bg_gray">
+          <div class="flex">
+            <div class="a_icon">
+              <img src="img/material/icon/A.png" alt="必ず入会する必要はございません。回5,000円です。">
+            </div>
+            <div class="a_text">
+              <p>
+                必ず入会する必要はございません。<br>
+                無料講座で、「プログラミングの楽しさ」を実感されてからぜひご入会ください。
+              </p>
+            </div>
+          </div><!-- flex -->
+        </div><!-- bg_gray -->
+      </div><!-- bg_white -->
+    </div><!-- qa -->
+
+    <div class="qa qa7">
+      <div class="bg_white">
+        <div class="qa_header">
+          <div class="flex">
+            <div class="flex">
+              <div class="q_icon">
+                <img src="img/material/icon/Q.png" alt="パソコンはレンタルできますか？">
+              </div>
+              <div class="q_title">
+                <h5>パソコンはレンタルできますか？</h5>
+              </div>
+              <div class="open_close">+</div>
+            </div><!-- flex -->
+          </div><!-- flex -->
+        </div><!-- qa_header -->
+        <div class="bg_gray">
+          <div class="flex">
+            <div class="a_icon">
+              <img src="img/material/icon/A.png" alt="レンタルは行っております。">
+            </div>
+            <div class="a_text">
+              <p>
+                レンタルは行っております。<br>
+                しかし、パソコンは購入することを勧めております。<br>
+                プライベートでも自由に使用できるパソコンがあると便利であるためです。<br>
+                不安な方はご相談ください。
+              </p>
+            </div>
+          </div><!-- flex -->
+        </div><!-- bg_gray -->
+      </div><!-- bg_white -->
+    </div><!-- qa -->
+
+    <div class="qa qa8">
+      <div class="bg_white">
+        <div class="qa_header">
+          <div class="flex">
+            <div class="flex">
+              <div class="q_icon">
+                <img src="img/material/icon/Q.png" alt="オンラインで受講できますか？">
+              </div>
+              <div class="q_title">
+                <h5>オンラインで受講できますか？</h5>
+              </div>
+              <div class="open_close">+</div>
+            </div><!-- flex -->
+          </div><!-- flex -->
+        </div><!-- qa_header -->
+        <div class="bg_gray">
+          <div class="flex">
+            <div class="a_icon">
+              <img src="img/material/icon/A.png" alt="discordまたはZOOMのインストールをお願いいたします。">
+            </div>
+            <div class="a_text">
+              <p>
+                可能です。<br>
+                discordまたはZOOMのインストールをお願いいたします。
+              </p>
+            </div>
+          </div><!-- flex -->
+        </div><!-- bg_gray -->
+      </div><!-- bg_white -->
+    </div><!-- qa -->
+
+    <div class="qa qa9">
+      <div class="bg_white">
+        <div class="qa_header">
+          <div class="flex">
+            <div class="flex">
+              <div class="q_icon">
+                <img src="img/material/icon/Q.png" alt="ひと月の講座回数はどのくらいですか？">
+              </div>
+              <div class="q_title">
+                <h5>ひと月の講座回数はどのくらいですか？</h5>
+              </div>
+              <div class="open_close">+</div>
+            </div><!-- flex -->
+          </div><!-- flex -->
+        </div><!-- qa_header -->
+        <div class="bg_gray">
+          <div class="flex">
+            <div class="a_icon">
+              <img src="img/material/icon/A.png" alt="月2回を希望される方が多いです。">
+            </div>
+            <div class="a_text">
+              <p>
+                月の講座回数はお客様のご希望に沿えるようにしております。<br>
+                月2回を希望される方が多いです。
+              </p>
+            </div>
+          </div><!-- flex -->
+        </div><!-- bg_gray -->
+      </div><!-- bg_white -->
+    </div><!-- qa -->
+
+    <div class="qa qa10">
+      <div class="bg_white">
+        <div class="qa_header">
+          <div class="flex">
+            <div class="flex">
+              <div class="q_icon">
+                <img src="img/material/icon/Q.png" alt="休んだ場合、振替はありますか？">
+              </div>
+              <div class="q_title">
+                <h5>休んだ場合、振替はありますか？</h5>
+              </div>
+              <div class="open_close">+</div>
+            </div><!-- flex -->
+          </div><!-- flex -->
+        </div><!-- qa_header -->
+        <div class="bg_gray">
+          <div class="flex">
+            <div class="a_icon">
+              <img src="img/material/icon/A.png" alt="振替可能">
+            </div>
+            <div class="a_text">
+              <p>
+                振替は可能です。追加料金はかかりません。<br>
+                事前のご連絡をお願いいたします。
+              </p>
+            </div>
+          </div><!-- flex -->
+        </div><!-- bg_gray -->
+      </div><!-- bg_white -->
+    </div><!-- qa -->
+
+  </div><!-- inline -->
+</section>
+
+
   <footer>
     <p>&copy;copyright connai connai <?php echo date('Y') ?></p>
   </footer>
@@ -408,5 +729,14 @@
   <script src="js/wave.js"></script>
 <!-- wave -->
   <script src="js/hamberger.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <script>
+  $(function(){
+    $("#qa .qa .bg_white .qa_header").on("click", function() {
+      $(this).next().slideToggle();
+    });
+  });
+  </script>
 </body>
 </html>

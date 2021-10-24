@@ -42,11 +42,14 @@ header{
   // position: fixed;
   width: 100vw;
   z-index: 999;
+  @include sp{
+    height: 9rem;
+  }
   img{
     max-width: 16rem;
     width: 30%;
     @include tab{
-      width: 18%;
+      width: 50%;
     }
   }
   .pc{
@@ -54,6 +57,9 @@ header{
     align-items:center;
     @include tab {
       width: 92%;
+    }
+    @include sp {
+      display:none;
     }
   }
   .header-flex{
@@ -69,7 +75,7 @@ header{
         padding: 0.2rem 0.5rem;
         color: #707070;
         @include tab {
-          font-size: 0.7rem;
+          font-size: 2.7rem;
         }
         &:hover{
           transition: 0.3s;
@@ -90,6 +96,9 @@ header{
     position: absolute;
     top: -116px;
     left: 0;
+    @include sp{
+      height: 32rem;
+    }
   }
 }
 html{
@@ -690,6 +699,38 @@ p{
     }
   }
 }
+#qa{
+  padding-top: 13.3rem;
+  padding-bottom: 20rem;
+  img{
+    width: 4rem;
+    margin-right: 4rem;
+  }
+  .sec_title{
+    h2{
+      color:#FFF;
+    }
+  }
+  .qa{
+    margin-bottom: 2rem;
+    .bg_white{
+        padding-bottom: 2rem;
+      .qa_header{
+        padding: 2rem;
+        cursor: pointer;
+      }
+    }
+  }
+  .bg_gray{
+    width: 90%;
+    margin:auto;
+    padding: 2rem;
+    background: #EEEEEE;
+    border-radius: 25px;
+    display:none;
+  }
+}
+
 footer{
   background-color: $yellow;
   text-align: center;

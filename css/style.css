@@ -9,13 +9,18 @@ header {
   width: 100vw;
   z-index: 999;
 }
+@media (max-width: 540px) {
+  header {
+    height: 9rem;
+  }
+}
 header img {
   max-width: 16rem;
   width: 30%;
 }
 @media (max-width: 834px) {
   header img {
-    width: 18%;
+    width: 50%;
   }
 }
 header .pc {
@@ -25,6 +30,11 @@ header .pc {
 @media (max-width: 834px) {
   header .pc {
     width: 92%;
+  }
+}
+@media (max-width: 540px) {
+  header .pc {
+    display: none;
   }
 }
 header .header-flex {
@@ -42,7 +52,7 @@ header .nav .nav_btn a {
 }
 @media (max-width: 834px) {
   header .nav .nav_btn a {
-    font-size: 0.7rem;
+    font-size: 2.7rem;
   }
 }
 header .nav .nav_btn a:hover {
@@ -59,6 +69,11 @@ header .nav .nav_btn a:hover {
   position: absolute;
   top: -116px;
   left: 0;
+}
+@media (max-width: 540px) {
+  .bg_animation svg {
+    height: 32rem;
+  }
 }
 
 html {
@@ -679,6 +694,36 @@ p {
 #contact .buttons .line img {
   max-height: 40px;
   height: 4rem;
+}
+
+#qa {
+  padding-top: 13.3rem;
+  padding-bottom: 20rem;
+}
+#qa img {
+  width: 4rem;
+  margin-right: 4rem;
+}
+#qa .sec_title h2 {
+  color: #FFF;
+}
+#qa .qa {
+  margin-bottom: 2rem;
+}
+#qa .qa .bg_white {
+  padding-bottom: 2rem;
+}
+#qa .qa .bg_white .qa_header {
+  padding: 2rem;
+  cursor: pointer;
+}
+#qa .bg_gray {
+  width: 90%;
+  margin: auto;
+  padding: 2rem;
+  background: #EEEEEE;
+  border-radius: 25px;
+  display: none;
 }
 
 footer {
