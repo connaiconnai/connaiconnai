@@ -125,6 +125,7 @@
           <h5>サービス紹介</h5>
         </div>
         <div class="course">
+
           <div class="course_card bg_white">
             <div class="pc_flex">
               <div class="img">
@@ -136,6 +137,32 @@
             <div class="course_detail button">
               <button id="show_detail1">詳しく見る</button>
             </div><!-- button -->
+
+            <div class="detail_inline">
+              <div class="img">
+                <img src="" alt="">
+              </div>
+              <div class="detail_title">
+                <h5>受講スケジュール</h5>
+              </div>
+              <div class="detail_text flex">
+                <p>プログラミング基礎</p>
+                <p>4回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>じゃんけんゲーム</p>
+                <p>2回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>サイト制作</p>
+                <p>3回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>クイズゲーム</p>
+                <p>3回</p>
+              </div>
+            </div><!-- detail_inline -->
+
           </div><!-- case_card-->
 
           <div class="course_card bg_white">
@@ -149,6 +176,35 @@
             <div class="course_detail button">
               <button id="show_detail2">詳しく見る</button>
             </div><!-- button -->
+
+            <div class="detail_inline">
+              <div class="img">
+                <img src="" alt="">
+              </div>
+              <div class="detail_title">
+                <h5>受講スケジュール</h5>
+              </div>
+              <div class="detail_text flex">
+                <p>サイト模写</p>
+                <p>5回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>自作サイト制作練習</p>
+                <p>3回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>自分のサイトデザイン</p>
+                <p>1回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>自分のサイト制作</p>
+                <p>2回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>サイト公開</p>
+                <p>1回</p>
+              </div>
+            </div><!-- detail_inline -->
           </div><!-- case_card-->
 
           <div class="course_card bg_white">
@@ -162,6 +218,59 @@
             <div class="course_detail button">
               <button id="show_detail3">詳しく見る</button>
             </div><!-- button -->
+
+            <div class="detail_inline">
+              <div class="img">
+                <img src="" alt="">
+              </div>
+              <div class="detail_title">
+                <h5>受講スケジュール</h5>
+              </div>
+              <div class="detail_text flex">
+                <p>ベース制作</p>
+                <p>1回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>キャラクター表示など</p>
+                <p>1回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>壁判定</p>
+                <p>1回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>敵表示など</p>
+                <p>1回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>攻撃モーション</p>
+                <p>1回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>経験値/HP表示</p>
+                <p>1回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>経験値/HP変動</p>
+                <p>1回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>人と話す/テキスト表示</p>
+                <p>1回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>マップ生成</p>
+                <p>1回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>マップ移動</p>
+                <p>1回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>修正</p>
+                <p>2回</p>
+              </div>
+            </div><!-- detail_inline -->
           </div><!-- case_card-->
 
           <div class="course_card bg_white">
@@ -172,11 +281,36 @@
               <h4 class="course_name">開発コース</h4>
             </div>
             <p class="explanation">
-              デザインから設計、コーディングまで１人でこなせるようになります
+              デザインから設計、コーディングまで１人でこなせるようになります。
             </p>
             <div class="course_detail button">
               <button id="show_detail4">詳しく見る</button>
             </div><!-- button -->
+
+            <div class="detail_inline">
+              <div class="img">
+                <img src="" alt="">
+              </div>
+              <div class="detail_title">
+                <h5>受講スケジュール</h5>
+              </div>
+              <div class="detail_text flex">
+                <p>要件定義</p>
+                <p>1回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>設計</p>
+                <p>3回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>コーディング</p>
+                <p>7回</p>
+              </div>
+              <div class="detail_text flex">
+                <p>公開</p>
+                <p>1回</p>
+              </div>
+            </div><!-- detail_inline -->
           </div><!-- case_card-->
         </div><!-- case -->
 
@@ -731,12 +865,6 @@
   <script src="js/hamberger.js"></script>
 
 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-  <script>
-  $(function(){
-    $("#qa .qa .bg_white .qa_header").on("click", function() {
-      $(this).next().slideToggle();
-    });
-  });
-  </script>
+  <script src="js/toggle.js"> </script>
 </body>
 </html>
