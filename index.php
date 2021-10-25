@@ -383,7 +383,6 @@
         </div><!-- voice -->
 
         <div class="students_work">
-<h5> ※準備中 </h5>
           <h3>生徒の作品</h3>
           <div class="pc_flex">
 
@@ -539,7 +538,7 @@
         </div><!--text -->
       </div><!-- address -->
       <div class="buttons">
-        <p>instagramやLINE@からもご連絡頂けます！</p>
+        <p>instagramやLINE@からご連絡頂けます！</p>
         <div class="flex">
           <div class="insta sns">
             <a href="https://www.instagram.com/connai_connai/"><img src="img/material/icon/insta.png" alt="insta"></a>
