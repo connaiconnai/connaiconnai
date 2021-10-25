@@ -386,41 +386,58 @@
 <h5> ※準備中 </h5>
           <h3>生徒の作品</h3>
           <div class="pc_flex">
+
             <div class="work_card">
               <div class="bg_white">
-                <div class="img">
-                  <div class="img_demo"></div>
-                </div>
+                <a href="https://takumi0203index1.herokuapp.com">
+                  <div class="img">
+                    <img src="img/works/site.png" alt="自己紹介サイト">
+                  </div>
+                </a>
                 <div class="text">
-                  <p class="course_name">基礎コース受講</p>
-                  <p class="work_title">ポートフォリオサイト </p>
+                  <p class="course_name">サイト制作コース</p>
+                  <a href="https://takumi0203index1.herokuapp.com">
+                    <p class="work_title">自己紹介サイト</p>
+                  </a>
                 </div>
               </div><!-- bg_white -->
             </div><!-- work_card -->
+
             <div class="work_card">
               <div class="bg_white">
-                <div class="img">
-                  <div class="img_demo"></div>
-                </div>
+                <a href="https://gentle-atoll-39811.herokuapp.com/janken/index.html">
+                  <div class="img">
+                    <img src="img/works/janken.png" alt="じゃんけんゲーム">
+                  </div>
+                </a>
                 <div class="text">
                   <p class="course_name">基礎コース受講</p>
-                  <p class="work_title">ポートフォリオサイト </p>
+                <a href="https://gentle-atoll-39811.herokuapp.com/janken/index.html">
+                  <p class="work_title">じゃんけんゲーム</p>
+                </a>
                 </div>
               </div><!-- bg_white -->
             </div><!-- work_card -->
+
             <div class="work_card">
               <div class="bg_white">
                 <div class="img">
-                  <div class="img_demo"></div>
+                  <a href="https://polar-fjord-40712.herokuapp.com/game/index.html">
+                    <img src="img/works/game.png" alt="ゲーム">
+                  </a>
                 </div>
                 <div class="text">
                   <p class="course_name">基礎コース受講</p>
-                  <p class="work_title">ポートフォリオサイト </p>
+                  <a href="https://polar-fjord-40712.herokuapp.com/game/index.html">
+                    <p class="work_title">ゲーム</p>
+                  </a>
                 </div>
               </div><!-- bg_white -->
             </div><!-- work_card -->
+
           </div><!-- pc_flex -->
 
+<!--
           <div class="button show_voice">
             <button>さらに見る</button>
           </div><!-- button -->
