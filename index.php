@@ -109,11 +109,13 @@
             </div><!-- pc_flex -->
         </div><!-- power -->
 
-        <div class="button start_to_free_class">
-          <button class="orange">
-            <h3>無料講座を始める</h3>
-          </button>
-        </div>
+        <a href="#contact">
+          <div class="button start_to_free_class">
+            <button class="orange">
+              <h3>無料講座を始める</h3>
+            </button>
+          </div>
+        </a>
 
       </div><!-- bg_animation -->
     </section><!-- #top -->
@@ -446,11 +448,13 @@
       <div class="big_text">
         <h3>まずは講座１回分を無料体験</h3>
       </div>
-      <div class="button start_to_free_class">
-        <button class="orange">
-          <h3>無料講座を始める</h3>
-        </button>
-      </div>
+      <a href="#contact">
+        <div class="button start_to_free_class">
+          <button class="orange">
+            <h3>無料講座を始める</h3>
+          </button>
+        </div>
+      </a>
     </section><!-- #service -->
 
 <section id="members">
@@ -485,10 +489,10 @@
                 <a href="https://haradakazunari.herokuapp.com"><button>Portfolio</button></a>
               </div>
               <div class="facebook sns">
-                <a href="#"><img src="img/material/icon/facebook.png" alt="facebook"></a>
+                <a href="https://www.facebook.com/profile.php?id=100031652443406"><img src="img/material/icon/facebook.png" alt="facebook"></a>
               </div>
               <div class="insta sns">
-                <a href="#"><img src="img/material/icon/insta.png" alt="insta"></a>
+                <a href="https://www.instagram.com/harada_kznr/"><img src="img/material/icon/insta.png" alt="insta"></a>
               </div>
             </div><!-- buttons -->
           </div><!-- detail -->
